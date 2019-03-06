@@ -3,8 +3,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter_auth0/flutter_auth0.dart';
 
-final String clientId = 'your-client-id';
-final String domain = 'your-domain';
+final String clientId = 'q8cYj97gO6keQP0Md1mT9yKYa4aQRYH0';
+final String domain = 'healthchampion-dev.auth0.com';
 
 final Auth0 auth = new Auth0(clientId: clientId, domain: domain);
 final WebAuth web = new WebAuth(clientId: clientId, domain: domain);
